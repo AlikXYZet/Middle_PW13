@@ -3,14 +3,13 @@
 
 /*   Реализация (интерфейс)   */
 // Персонаж
-class Character abstract
+__interface Character
 {
-public:
 	virtual void ReactionAttack() = 0;
 	virtual void ReactionProtection() = 0;
 };
 
-/*   Абстракция (интерфейс)   */
+/*   Абстрактный класс   */
 // Реакция
 class Reaction abstract
 {
